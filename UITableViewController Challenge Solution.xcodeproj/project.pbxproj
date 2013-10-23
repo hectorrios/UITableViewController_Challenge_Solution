@@ -14,7 +14,6 @@
 		EA5B3ABA181862F1005692EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B3AB9181862F1005692EA /* main.m */; };
 		EA5B3ABE181862F1005692EA /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B3ABD181862F1005692EA /* CSAppDelegate.m */; };
 		EA5B3AC1181862F1005692EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5B3ABF181862F1005692EA /* Main.storyboard */; };
-		EA5B3AC4181862F1005692EA /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B3AC3181862F1005692EA /* CSViewController.m */; };
 		EA5B3AC6181862F1005692EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5B3AC5181862F1005692EA /* Images.xcassets */; };
 		EA5B3ACD181862F2005692EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B3ACC181862F1005692EA /* XCTest.framework */; };
 		EA5B3ACE181862F2005692EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B3AAD181862F1005692EA /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		EA5B3ABC181862F1005692EA /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
 		EA5B3ABD181862F1005692EA /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
 		EA5B3AC0181862F1005692EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA5B3AC2181862F1005692EA /* CSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
-		EA5B3AC3181862F1005692EA /* CSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
 		EA5B3AC5181862F1005692EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA5B3ACB181862F1005692EA /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5B3ACC181862F1005692EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -113,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				EA5B3ABF181862F1005692EA /* Main.storyboard */,
-				EA5B3AC2181862F1005692EA /* CSViewController.h */,
-				EA5B3AC3181862F1005692EA /* CSViewController.m */,
 				EA5B3AC5181862F1005692EA /* Images.xcassets */,
 				EA5B3AB4181862F1005692EA /* Supporting Files */,
 			);
@@ -252,7 +247,6 @@
 			files = (
 				EA5B3ABE181862F1005692EA /* CSAppDelegate.m in Sources */,
 				EA5B3ABA181862F1005692EA /* main.m in Sources */,
-				EA5B3AC4181862F1005692EA /* CSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,7 @@
 		EA5B3ACF181862F2005692EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B3AB1181862F1005692EA /* UIKit.framework */; };
 		EA5B3AD7181862F2005692EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5B3AD5181862F2005692EA /* InfoPlist.strings */; };
 		EA5B3AD9181862F2005692EA /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B3AD8181862F2005692EA /* UITableViewController_Challenge_SolutionTests.m */; };
+		EA5B3AE418186AA2005692EA /* CSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B3AE318186AA2005692EA /* CSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		EA5B3AD4181862F2005692EA /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		EA5B3AD6181862F2005692EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA5B3AD8181862F2005692EA /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		EA5B3AE218186AA2005692EA /* CSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewController.h; sourceTree = "<group>"; };
+		EA5B3AE318186AA2005692EA /* CSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				EA5B3ABF181862F1005692EA /* Main.storyboard */,
+				EA5B3AE218186AA2005692EA /* CSTableViewController.h */,
+				EA5B3AE318186AA2005692EA /* CSTableViewController.m */,
 				EA5B3AC5181862F1005692EA /* Images.xcassets */,
 				EA5B3AB4181862F1005692EA /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA5B3ABE181862F1005692EA /* CSAppDelegate.m in Sources */,
+				EA5B3AE418186AA2005692EA /* CSTableViewController.m in Sources */,
 				EA5B3ABA181862F1005692EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

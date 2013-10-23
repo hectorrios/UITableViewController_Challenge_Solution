@@ -112,8 +112,6 @@
 		EA5B3AB3181862F1005692EA /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				EA5B3ABC181862F1005692EA /* CSAppDelegate.h */,
-				EA5B3ABD181862F1005692EA /* CSAppDelegate.m */,
 				EA5B3ABF181862F1005692EA /* Main.storyboard */,
 				EA5B3AC2181862F1005692EA /* CSViewController.h */,
 				EA5B3AC3181862F1005692EA /* CSViewController.m */,
@@ -126,6 +124,8 @@
 		EA5B3AB4181862F1005692EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA5B3ABC181862F1005692EA /* CSAppDelegate.h */,
+				EA5B3ABD181862F1005692EA /* CSAppDelegate.m */,
 				EA5B3AB5181862F1005692EA /* UITableViewController Challenge Solution-Info.plist */,
 				EA5B3AB6181862F1005692EA /* InfoPlist.strings */,
 				EA5B3AB9181862F1005692EA /* main.m */,
